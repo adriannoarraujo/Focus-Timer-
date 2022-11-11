@@ -10,6 +10,7 @@ Segundo desafio proposto no módulo 5 do curso Explorer da Rocketseat
 - Temporizador
 - Tocar som relaxante (cards que se encontra ao lado direito)
 - Para iniciar o som de um card, tem que parar o som do card anterior
+- Opção do botão mode dark
 
 <br>
 <br>

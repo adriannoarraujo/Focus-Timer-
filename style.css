@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}   
+
+html{
+    --body-bg: #FFFFFF;
+    --geral-color: #323238;
+    --bg-card:#E1E1E6;
+    --color-hover:#02799D;
+    --color-svg:#323238;
+    --color-svg-click:#FFF;
+    --color-footer: #323238;
+}
+
+.dark-mode{
+    --body-bg:#121214;
+    --geral-color: #FFFFFF;
+    --bg-card:#29292E;
+    --color-hover: #0A3442;
+    --color-svg: #C4C4CC;
+    --color-svg-click:#C4C4CC;
+    --color-footer: #FFF;
+}
+
+
+
+
+body{
+    background-color:var(--body-bg) ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.theme {
+    position: absolute;
+    top: 6rem;
+    right: 6rem;
+}
+
+.conteiner{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19.2rem;
+}
+
+.hide {
+    display: none;
+}
+
+span{
+    font-size:12.7rem ;
+    line-height: 14.8rem;
+    text-align: center;
+    color: var(--geral-color);
+}
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+    gap: 4.0rem ;
+}
+
+.controls button, .theme{
+    background-color: transparent;
+    border: none;
+    cursor: pointer; 
+}
+
+.controls button svg path,
+.cardsSound button svg path{
+    fill:var(--color-svg);
+}
+
+.cardsSound{
+    display: grid;
+    grid-template-areas:
+      "A A"
+      "B B"; 
+    justify-content: center;
+    gap: 3.2rem;
+    width: 308px;
+    height: 336px;
+
+}
+
+.card{
+    position: relative;
+    width: 13.8rem;
+    height: 15.2rem;
+    background-color:var(--bg-card);
+    border-radius: 2.4rem ;
+    box-shadow: .5rem .5rem .5rem var(--geral-color);
+    border: none;
+    cursor: pointer;
+}
+
+.cardClick{
+    background-color:var(--color-hover);
+}
+.cardsSound .cardClick svg path {
+    fill: var(--color-svg-click);
+}
+
+.cardClick input::-webkit-slider-thumb,
+.cardClick input{
+    background: var(--color-svg-click);
+}
+
+
+input {
+    position:absolute;
+    bottom: 2.4rem;
+    left: 2.4rem;
+   
+    width: 9rem; 
+    appearance: none;
+    outline: none;
+    background:var(--color-svg);
+    border-radius: 5px;
+    height: 4px;
+}
+
+input::-webkit-slider-thumb {
+    appearance: none;
+    display: block;
+    height:16px;
+    width: 16px;
+    background:var(--color-svg);
+    border-radius: 50%;
+    cursor: grab;
+}
+
+button {
+    transition: .100s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--geral-color);
+}
+

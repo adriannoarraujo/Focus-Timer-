@@ -34,11 +34,11 @@ Segundo desafio proposto no módulo 5 do curso Explorer da Rocketseat
 </div>
 <br>
 
-Link para acessar :  <a href= https://adriannoarraujo.github.io/FocusTimer/> Focus Timer </a> 
+Link para acessar :  <a href= "https://adriannoarraujo.github.io/Focus-Timer-/" target="_blank"> Focus Timer </a> 
 </div>
 <br>
 
 <hr>
 <div align="center">
-Desenvolvido por<a href="https://adriannoarraujo.github.io/Contacts-Links/">@Adriano Araújo </a>
+Desenvolvido por<a  href="https://adriannoarraujo.github.io/Contacts-Links/" target="_blank">@Adriano Araújo </a>
 </div>
